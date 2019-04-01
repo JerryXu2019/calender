@@ -1,8 +1,7 @@
 # calender
-カレンダー
+カレンダー(日历)
 //当前月份第一天是周几，每个月有多少天，如何获取
 
-ddkdhkdjbffhfkhlkhlsfljdnvjsnvs
  func getCountOfDaysInMonth(year: Int, month: Int) -> (count: Int, week: Int) {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM"
